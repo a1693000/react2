@@ -1,5 +1,11 @@
 import React from 'react';
 
-const Main = () => <h1>Hello World</h1>;
+import logo from '../assets/logo.jpg';
+
+const Main = () => (
+  <div>
+    <img src={logo} alt="Github Compare" />
+  </div>
+);
 
 export default Main;
